@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,6 +21,8 @@ public class Scan extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.scan,container,false);
+
+        getActivity().getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
 
         Intent intent = new Intent(getActivity(), UnityPlayerActivity.class);
         startActivity(intent);
