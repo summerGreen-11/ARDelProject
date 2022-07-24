@@ -1,0 +1,8 @@
+#include "il2cpp-config.h"
+#include "E:\ARDelProject\ARTest\unityLibrary\src\main\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\BlobReader.cpp"
+#include "E:\ARDelProject\ARTest\unityLibrary\src\main\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\Debugger.cpp"
+#include "E:\ARDelProject\ARTest\unityLibrary\src\main\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\NativeDelegateMethodCache.cpp"
+#include "E:\ARDelProject\ARTest\unityLibrary\src\main\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\NativeSymbol.cpp"
+#include "E:\ARDelProject\ARTest\unityLibrary\src\main\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\VmStringUtils.cpp"
+#include "E:\ARDelProject\ARTest\unityLibrary\src\main\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\icalls\mscorlib\System.Threading\Interlocked.cpp"
+#include "E:\ARDelProject\ARTest\unityLibrary\src\main\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\icalls\mscorlib\System\Math.cpp"
