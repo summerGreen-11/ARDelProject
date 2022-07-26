@@ -6,133 +6,135 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml
+8-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml
+9-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml
 10
 11    <uses-feature android:glEsVersion="0x00030000" />
-11-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:20:3-52
-11-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:20:17-49
+11-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:20:3-52
+11-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:20:17-49
 12
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:21:3-65
-13-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:21:20-62
+13-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:21:3-65
+13-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:21:20-62
 14
 15    <uses-feature
-15-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:22:3-88
+15-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:22:3-88
 16        android:name="android.hardware.touchscreen"
-16-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:22:17-60
+16-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:22:17-60
 17        android:required="false" />
-17-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:22:61-85
+17-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:22:61-85
 18    <uses-feature
-18-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:23:3-99
+18-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:23:3-99
 19        android:name="android.hardware.touchscreen.multitouch"
-19-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:23:17-71
+19-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:23:17-71
 20        android:required="false" />
-20-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:23:72-96
+20-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:23:72-96
 21    <uses-feature
-21-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:24:3-108
+21-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:24:3-108
 22        android:name="android.hardware.touchscreen.multitouch.distinct"
-22-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:24:17-80
+22-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:24:17-80
 23        android:required="false" />
-23-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:24:81-105
+23-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:24:81-105
 24
 25    <uses-permission android:name="android.permission.CAMERA" />
-25-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:25:3-63
-25-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:25:20-60
+25-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:25:3-63
+25-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:25:20-60
 26
 27    <uses-feature
-27-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:26:3-85
+27-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:26:3-85
 28        android:name="android.hardware.camera.ar"
-28-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:26:17-58
+28-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:26:17-58
 29        android:required="true" />
-29-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:26:59-82
+29-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:26:59-82
 30    <uses-feature
-30-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:27:3-83
+30-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:27:3-83
 31        android:name="com.google.ar.core.depth"
-31-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:27:17-56
+31-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:27:17-56
 32        android:required="true" />
-32-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:27:57-80
+32-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:27:57-80
 33
 34    <application>
-34-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:4:3-19:17
+34-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:4:3-19:17
 35        <activity
-35-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:5-12:16
+35-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:5-12:16
 36            android:name="com.unity3d.player.UnityPlayerActivity"
-36-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+36-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:15-68
 37            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-37-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:206-387
+37-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:206-387
 38            android:exported="true"
-38-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:69-92
+38-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:69-92
 39            android:hardwareAccelerated="false"
-39-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:388-423
+39-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:419-454
 40            android:launchMode="singleTask"
-40-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:174-205
-41            android:screenOrientation="fullSensor"
-41-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:135-173
-42            android:theme="@style/UnityThemeSelector" >
-42-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:93-134
-43            <intent-filter>
-43-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:6:7-9:23
-44                <action android:name="android.intent.action.MAIN" />
-44-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:7:9-61
-44-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:7:17-58
-45
-46                <category android:name="android.intent.category.LAUNCHER" />
-46-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:8:9-69
-46-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:8:19-66
-47            </intent-filter>
-48
-49            <meta-data
-49-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:10:7-82
-50                android:name="unityplayer.UnityActivity"
-50-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:10:18-58
-51                android:value="true" />
-51-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:10:59-79
-52            <meta-data
-52-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:11:7-78
-53                android:name="android.notch_support"
-53-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:11:18-54
-54                android:value="true" />
-54-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:11:55-75
-55        </activity>
-56
-57        <meta-data
-57-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:13:5-69
-58            android:name="unity.splash-mode"
-58-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:13:16-48
-59            android:value="0" />
-59-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:13:49-66
-60        <meta-data
-60-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:14:5-74
-61            android:name="unity.splash-enable"
-61-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:14:16-50
-62            android:value="True" />
-62-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:14:51-71
-63        <meta-data
-63-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:15:5-81
-64            android:name="notch.config"
-64-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:15:16-43
-65            android:value="portrait|landscape" />
-65-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:15:44-78
-66        <meta-data
-66-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:16:5-101
-67            android:name="unity.build-id"
-67-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:16:16-45
-68            android:value="458031b9-72d1-4aec-907c-83e0068ee135" />
-68-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:16:46-98
-69        <meta-data
-69-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:17:5-88
-70            android:name="unityplayer.SkipPermissionsDialog"
-70-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:17:16-64
-71            android:value="true" />
-71-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:17:65-85
-72        <meta-data
-72-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:18:5-77
-73            android:name="com.google.ar.core"
-73-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:18:16-49
-74            android:value="required" />
-74-->E:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:18:50-74
-75    </application>
-76
-77</manifest>
+40-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:174-205
+41            android:process=":unityplayer"
+41-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:388-418
+42            android:screenOrientation="fullSensor"
+42-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:135-173
+43            android:theme="@style/UnityThemeSelector" >
+43-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:5:93-134
+44            <intent-filter>
+44-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:6:7-9:23
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:7:9-61
+45-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:7:17-58
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:8:9-69
+47-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:8:19-66
+48            </intent-filter>
+49
+50            <meta-data
+50-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+51                android:name="unityplayer.UnityActivity"
+51-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+52                android:value="true" />
+52-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+53            <meta-data
+53-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+54                android:name="android.notch_support"
+54-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+55                android:value="true" />
+55-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+56        </activity>
+57
+58        <meta-data
+58-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:13:5-69
+59            android:name="unity.splash-mode"
+59-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+60            android:value="0" />
+60-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:13:49-66
+61        <meta-data
+61-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:14:5-74
+62            android:name="unity.splash-enable"
+62-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:14:16-50
+63            android:value="True" />
+63-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:14:51-71
+64        <meta-data
+64-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:15:5-81
+65            android:name="notch.config"
+65-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:15:16-43
+66            android:value="portrait|landscape" />
+66-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:15:44-78
+67        <meta-data
+67-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:16:5-101
+68            android:name="unity.build-id"
+68-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:16:16-45
+69            android:value="458031b9-72d1-4aec-907c-83e0068ee135" />
+69-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:16:46-98
+70        <meta-data
+70-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:17:5-88
+71            android:name="unityplayer.SkipPermissionsDialog"
+71-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:17:16-64
+72            android:value="true" />
+72-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:17:65-85
+73        <meta-data
+73-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:18:5-77
+74            android:name="com.google.ar.core"
+74-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:18:16-49
+75            android:value="required" />
+75-->D:\ARDelProject\ARTest\unityLibrary\src\main\AndroidManifest.xml:18:50-74
+76    </application>
+77
+78</manifest>

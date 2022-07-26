@@ -27,11 +27,13 @@
         android:layout_marginTop="30dp"
         android:orientation="horizontal">
         <Button
+            android:background="@drawable/userboxshape"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="User"/>
         <Button
+            android:background="@drawable/userboxshape"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -55,8 +57,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp">
         <EditText
+            android:background="@drawable/loginputbox"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="40dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <LinearLayout
@@ -77,8 +80,9 @@
         android:layout_marginTop="10dp"
         app:passwordToggleEnabled="true">
         <EditText
+            android:background="@drawable/loginputbox"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:inputType="textPassword"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -87,16 +91,23 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:orientation="vertical">
+
         <Button
+            android:backgroundTint="#00086D"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/loginbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login"/>
+            android:text="Login" />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:src="@drawable/or"/>
         <Button
+            android:backgroundTint="#DCE3E7"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/loginbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
