@@ -4,10 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ARDelProject/app/src/main/res/drawable/loginbox.xml" value="0.2265" />
+        <entry key="..\:/ARDelProject/app/src/main/res/drawable/loginputbox.xml" value="0.1205" />
+        <entry key="..\:/ARDelProject/app/src/main/res/drawable/logintextbox.xml" value="0.245" />
         <entry key="..\:/ARDelProject/app/src/main/res/drawable/menu_item_color.xml" value="0.2855" />
+        <entry key="..\:/ARDelProject/app/src/main/res/drawable/userbox.xml" value="0.245" />
+        <entry key="..\:/ARDelProject/app/src/main/res/drawable/userbox02.xml" value="0.245" />
+        <entry key="..\:/ARDelProject/app/src/main/res/drawable/userboxcolor02.xml" value="0.245" />
+        <entry key="..\:/ARDelProject/app/src/main/res/drawable/userboxshape.xml" value="0.245" />
         <entry key="..\:/ARDelProject/app/src/main/res/layout/activity_main.xml" value="0.2558876811594203" />
         <entry key="..\:/ARDelProject/app/src/main/res/layout/home.xml" value="0.19296448087431695" />
-        <entry key="..\:/ARDelProject/app/src/main/res/layout/login.xml" value="0.264" />
+        <entry key="..\:/ARDelProject/app/src/main/res/layout/login.xml" value="0.2" />
         <entry key="..\:/ARDelProject/app/src/main/res/layout/navi.xml" value="0.2558876811594203" />
         <entry key="..\:/ARDelProject/app/src/main/res/layout/reserv.xml" value="0.2558876811594203" />
         <entry key="..\:/ARDelProject/app/src/main/res/layout/scan.xml" value="0.2558876811594203" />
