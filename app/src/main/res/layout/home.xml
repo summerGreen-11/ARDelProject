@@ -31,14 +31,19 @@
         </LinearLayout>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginHorizontal="2dp"
         app:cardCornerRadius="10dp"
         app:cardElevation="8dp"
-        app:contentPadding="20dp">
+        app:contentPaddingTop="10dp"
+        app:contentPaddingBottom="10dp"
+        app:contentPaddingLeft="20dp"
+        app:contentPaddingRight="20dp">
         <LinearLayout
+            android:id="@+id/cdlayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -50,19 +55,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
                     android:paddingHorizontal="20dp"
                     android:paddingVertical="5dp"
                     android:text="06/25"
                     android:textSize="14dp"
                     android:textColor="#FFFFFF"
                     android:background="@color/maincolor"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="50dp"
-                    android:textStyle="bold"
                     android:text="물건 이름이 들어갈 자리"
-                    />
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:layout_width="100dp"
@@ -71,44 +77,65 @@
                     android:src="@drawable/kexpresslogo" />
             </RelativeLayout>
 
-            <ImageView
+            <LinearLayout
+                android:id="@+id/hidelayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/or"/>
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:src="@drawable/loglogo"/>
-
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp">
-
-                <LinearLayout
+                android:orientation="vertical"
+                android:visibility="gone">
+                <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="정보1 : "/>
-                    <TextView
-                        android:layout_marginTop="5dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="정보2 : "/>
-                </LinearLayout>
+                    android:src="@drawable/or"/>
 
-            </ScrollView>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/loglogo"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
-                android:textSize="18sp"/>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="정보1 : "/>
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="정보2 : "/>
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="정보3 : "/>
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="정보4 : "/>
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="정보5 : "/>
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="정보6 : "/>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
