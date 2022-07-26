@@ -9,10 +9,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="240dp"
-            android:background="#DCE3E7"/>
+            android:background="#EAEDEF" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,7 +28,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="440dp"
-            android:layout_marginHorizontal="40dp"
+            android:layout_marginHorizontal="30dp"
             android:layout_marginTop="160dp"
             android:background="#FFFFFF"
             android:orientation="vertical">
@@ -68,18 +69,21 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:layout_marginHorizontal="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:background="#FFFFFF"
                     android:src="@drawable/set1" />
 
                 <ImageButton
+                    android:layout_marginHorizontal="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:background="#FFFFFF"
                     android:src="@drawable/set3" />
 
                 <ImageButton
+                    android:layout_marginHorizontal="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:background="#FFFFFF"
