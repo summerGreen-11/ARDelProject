@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.unity3d.player.UnityPlayerActivity;
+//import com.unity3d.player.UnityPlayerActivity;
 
 public class Scan extends Fragment {
 
@@ -22,10 +22,10 @@ public class Scan extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.scan,container,false);
 
-        getActivity().getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
-
-        Intent intent = new Intent(getActivity(), UnityPlayerActivity.class);
-        startActivity(intent);
+//        getActivity().getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
+//
+//        Intent intent = new Intent(getActivity(), UnityPlayerActivity.class);
+//        startActivity(intent);
 
         return view;
     }
