@@ -27,17 +27,19 @@
         android:layout_marginTop="30dp"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/btn_login_user"
             android:background="@drawable/userboxshape"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="User"/>
         <Button
+            android:id="@+id/btn_login_delivery"
             android:background="@drawable/userboxshape"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Delivery Man"/>
+            android:text="Delivery"/>
     </LinearLayout>
 
     <LinearLayout
@@ -93,6 +95,7 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/btn_login"
             android:backgroundTint="#00086D"
             android:textColor="#FFFFFF"
             android:background="@drawable/loginbox"
