@@ -13,25 +13,26 @@
             android:layout_height="50dp"
             android:layout_marginTop="30dp"
             android:orientation="horizontal"
-            android:background="@drawable/btn_bg_img"
-            >
+            android:background="@drawable/btn_bg_img">
             <Button
+                android:id="@+id/del_ing"
                 android:layout_width="0dp"
                 android:layout_height="35dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="6dp"
                 android:layout_marginRight="2dp"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homeboxshape"
                 android:text="배송중"/>
             <Button
+                android:id="@+id/del_com"
                 android:layout_width="0dp"
                 android:layout_height="35dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="2dp"
                 android:layout_marginRight="6dp"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homeboxshape"
                 android:text="배송 완료"/>
         </LinearLayout>
 
@@ -62,7 +63,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:background="@color/maincolor"
+                    android:backgroundTint="@color/maincolor"
+                    android:background="@drawable/loginbox"
                     android:paddingHorizontal="20dp"
                     android:paddingVertical="5dp"
                     android:text="06/25"
@@ -113,31 +115,36 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:background="@color/bgcolor"
+                            android:backgroundTint="@color/bgcolor"
+                            android:background="@drawable/loginbox"
                             android:text="정보1 : "/>
                         <TextView
                             android:layout_marginTop="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:background="@color/bgcolor"
+                            android:backgroundTint="@color/bgcolor"
+                            android:background="@drawable/loginbox"
                             android:text="정보2 : "/>
                         <TextView
                             android:layout_marginTop="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:background="@color/bgcolor"
+                            android:backgroundTint="@color/bgcolor"
+                            android:background="@drawable/loginbox"
                             android:text="정보3 : "/>
                         <TextView
                             android:layout_marginTop="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:background="@color/bgcolor"
+                            android:backgroundTint="@color/bgcolor"
+                            android:background="@drawable/loginbox"
                             android:text="정보4 : "/>
                         <TextView
                             android:layout_marginTop="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:background="@color/bgcolor"
+                            android:backgroundTint="@color/bgcolor"
+                            android:background="@drawable/loginbox"
                             android:text="정보5 : "/>
                     </LinearLayout>
                 </ScrollView>

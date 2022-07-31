@@ -25,12 +25,13 @@ public class Settings extends Fragment {
         logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                logoutBtn.setSelected(true);
+
                 Intent intent = new Intent(getActivity().getApplicationContext(), Login.class);
                 startActivity(intent); // 다음화면으로 넘어가기
-//                finish(); // Activity 화면 제거
+                //finish(); // Activity 화면 제거
             }
         });
-
         return view;
     }
 }
