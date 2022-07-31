@@ -23,7 +23,8 @@
                 android:layout_marginRight="2dp"
                 android:layout_weight="1"
                 android:background="@drawable/homeboxshape"
-                android:text="배송중"/>
+                style="?android:attr/borderlessButtonStyle"
+                android:text="배송중" />
             <Button
                 android:id="@+id/del_com"
                 android:layout_width="0dp"
@@ -33,6 +34,7 @@
                 android:layout_marginRight="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/homeboxshape"
+                style="?android:attr/borderlessButtonStyle"
                 android:text="배송 완료"/>
         </LinearLayout>
 

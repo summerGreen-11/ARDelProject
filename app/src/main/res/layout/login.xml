@@ -35,7 +35,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textAllCaps="false"
-            android:text="User"/>
+            android:text="User"
+            style="?android:attr/borderlessButtonStyle" />
         <Button
             android:id="@+id/btn_login_delivery"
             android:background="@drawable/userboxshape"
@@ -45,7 +46,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textAllCaps="false"
-            android:text="Delivery"/>
+            android:text="Delivery"
+            style="?android:attr/borderlessButtonStyle" />
     </LinearLayout>
 
     <LinearLayout

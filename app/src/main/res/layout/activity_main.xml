@@ -19,9 +19,6 @@
 
 <!--    </FrameLayout>-->
 
-
-
-
     <FrameLayout
         android:id="@+id/main_frame"
         android:layout_width="409dp"
