@@ -32,8 +32,8 @@ public class Home extends Fragment {
 
     String s1[] = {"6/25","7/9","7/11","7/19","7/23","8/1","8/8"};
     String s2[] = {"기념품","선풍기","헤어질결심 각본집","우양산","아두이노 키트","에어팟 3세대","로지텍 마우스"};
-    int eximages[] = {R.drawable.kexpresslogo,R.drawable.kexpresslogo,R.drawable.kexpresslogo,R.drawable.kexpresslogo
-    ,R.drawable.kexpresslogo,R.drawable.kexpresslogo,R.drawable.kexpresslogo};
+    int eximages[] = {R.drawable.kexpresslogo,R.drawable.koreaexpress,R.drawable.kexpresslogo,R.drawable.koreaexpress
+    ,R.drawable.kexpresslogo,R.drawable.kexpresslogo,R.drawable.koreaexpress};
 
     @Nullable
     @Override
