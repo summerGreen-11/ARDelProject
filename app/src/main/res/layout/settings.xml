@@ -38,8 +38,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="80dp"
-                android:backgroundTint="@color/maincolor"
                 android:background="@drawable/loginbox"
+                android:backgroundTint="@color/maincolor"
                 android:paddingHorizontal="20dp"
                 android:paddingVertical="5dp"
                 android:text="사용자"
@@ -70,39 +70,40 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:layout_marginHorizontal="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
                     android:background="#FFFFFF"
                     android:src="@drawable/set1" />
 
                 <ImageButton
-                    android:layout_marginHorizontal="10dp"
+                    android:id="@+id/btn_info_setting"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
                     android:background="#FFFFFF"
                     android:src="@drawable/set3" />
 
                 <ImageButton
-                    android:layout_marginHorizontal="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
                     android:background="#FFFFFF"
                     android:src="@drawable/set2" />
             </LinearLayout>
 
             <Button
                 android:id="@+id/btn_logout"
-                android:textColor="#FFFFFF"
-                android:background="@drawable/settingshape"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:layout_marginHorizontal="15dp"
                 android:layout_marginTop="10dp"
+                android:background="@drawable/settingshape"
                 android:text="Log Out"
                 android:textAllCaps="false"
-                android:textStyle="bold"
-                style="?android:attr/borderlessButtonStyle" />
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <ImageView

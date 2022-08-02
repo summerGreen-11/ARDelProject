@@ -17,8 +17,11 @@
         android:theme="@style/Theme.ARDelProject"
         tools:targetApi="31">
         <activity
+            android:name=".setting02"
+            android:exported="true" />
+        <activity
             android:name=".AddressApiActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
