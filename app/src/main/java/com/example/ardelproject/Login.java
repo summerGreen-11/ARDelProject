@@ -22,12 +22,13 @@ public class Login extends Activity {
 
         loginuser = (Button) findViewById(R.id.btn_login_user);
         logindel = (Button) findViewById(R.id.btn_login_delivery);
+
         loginuser.setSelected(true);
         logindel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loginuser.setSelected(false);
                 logindel.setSelected(true);
+                loginuser.setSelected(false);
             }
         });
         loginuser.setOnClickListener(new View.OnClickListener() {
@@ -47,6 +48,5 @@ public class Login extends Activity {
                 finish(); // Activity 화면 제거
             }
         });
-
     }
 }

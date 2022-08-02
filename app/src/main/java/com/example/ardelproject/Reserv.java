@@ -28,7 +28,6 @@ public class Reserv extends Fragment {
 
         restoPhone = (EditText) view.findViewById(R.id.res_to_phone);
         restoPhone.addTextChangedListener(new PhoneNumberFormattingTextWatcher());
-
         return view;
     }
 }

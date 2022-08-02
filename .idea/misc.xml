@@ -3,6 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/homebox_checked.xml" value="0.254" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/homebox_unchecked.xml" value="0.254" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/homeboxshape.xml" value="0.254" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/loginbox.xml" value="0.2265" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/loginputbox.xml" value="0.2265" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/post_inputbox.xml" value="0.2265" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/settingshape.xml" value="0.1585" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/userbox_checked.xml" value="0.2265" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/userbox_text.xml" value="0.254" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/userbox_unchecked.xml" value="0.2265" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/userboxshape.xml" value="0.2265" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/activity_main.xml" value="0.18432971014492755" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/home.xml" value="0.136" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/login.xml" value="0.4" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/navi.xml" value="0.22826086956521738" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/reserv.xml" value="0.2917933130699088" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/settings.xml" value="0.72" />
         <entry key="..\:/ARDelProject/app/src/main/res/drawable/loginbox.xml" value="0.2265" />
         <entry key="..\:/ARDelProject/app/src/main/res/drawable/loginputbox.xml" value="0.1205" />
         <entry key="..\:/ARDelProject/app/src/main/res/drawable/logintextbox.xml" value="0.245" />
