@@ -68,15 +68,15 @@
                 android:id="@+id/lay_set1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="10dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -88,26 +88,28 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
                         android:layout_marginLeft="20dp"
                         android:text="운송장 정보 수정"
-                        android:layout_gravity="center_vertical"
+                        android:textColor="#8F92A1"
                         android:textSize="14sp"
-                        android:textStyle="bold"
-                        android:textColor="#8F92A1"/>
+                        android:textStyle="bold" />
+
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:src="@drawable/direc_right"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="140dp"/>
+                        android:layout_marginLeft="140dp"
+                        android:src="@drawable/direc_right" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/lay_set2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="10dp"
                     android:layout_marginTop="5dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -119,26 +121,28 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
                         android:layout_marginLeft="20dp"
                         android:text="운송장 정보 노출 범위 설정"
-                        android:layout_gravity="center_vertical"
+                        android:textColor="#8F92A1"
                         android:textSize="14sp"
-                        android:textStyle="bold"
-                        android:textColor="#8F92A1"/>
+                        android:textStyle="bold" />
+
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:src="@drawable/direc_right"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="80dp"/>
+                        android:layout_marginLeft="80dp"
+                        android:src="@drawable/direc_right" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/lay_set3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:paddingVertical="10dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -150,18 +154,19 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
                         android:layout_marginLeft="20dp"
                         android:text="사용자 정보 수정"
-                        android:layout_gravity="center_vertical"
+                        android:textColor="#8F92A1"
                         android:textSize="14sp"
-                        android:textStyle="bold"
-                        android:textColor="#8F92A1"/>
+                        android:textStyle="bold" />
+
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:src="@drawable/direc_right"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="140dp"/>
+                        android:layout_marginLeft="140dp"
+                        android:src="@drawable/direc_right" />
                 </LinearLayout>
             </LinearLayout>
 

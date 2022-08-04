@@ -11,6 +11,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="240dp"
@@ -31,7 +32,8 @@
             android:layout_height="440dp"
             android:layout_marginHorizontal="30dp"
             android:layout_marginTop="160dp"
-            android:background="#FFFFFF"
+            android:background="@drawable/loginbox"
+            android:backgroundTint="#FFFFFF"
             android:orientation="vertical">
 
             <LinearLayout
