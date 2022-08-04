@@ -10,8 +10,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="30dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="35dp"
             android:orientation="horizontal"
             android:background="@drawable/btn_bg_img">
             <Button

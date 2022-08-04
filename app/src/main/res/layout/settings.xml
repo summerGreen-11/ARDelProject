@@ -64,41 +64,113 @@
                 android:src="@drawable/hoz_line" />
 
             <LinearLayout
+                android:id="@+id/lay_set1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
                 android:orientation="vertical">
 
-                <ImageButton
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:background="#FFFFFF"
-                    android:src="@drawable/set1" />
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="10dp"
+                    android:orientation="horizontal">
 
-                <ImageButton
-                    android:id="@+id/btn_info_setting"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:background="#FFFFFF"
-                    android:src="@drawable/set3" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/set1_icon" />
 
-                <ImageButton
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="운송장 정보 수정"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="#8F92A1"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/direc_right"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="140dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/lay_set2"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:background="#FFFFFF"
-                    android:src="@drawable/set2" />
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/set2_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="운송장 정보 노출 범위 설정"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="#8F92A1"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/direc_right"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="80dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/lay_set3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingVertical="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/set3_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="사용자 정보 수정"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="#8F92A1"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/direc_right"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="140dp"/>
+                </LinearLayout>
             </LinearLayout>
 
             <Button
                 android:id="@+id/btn_logout"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginHorizontal="15dp"
-                android:layout_marginTop="10dp"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/settingshape"
                 android:text="Log Out"
                 android:textAllCaps="false"
