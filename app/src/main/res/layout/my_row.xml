@@ -2,8 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="20dp"
-    android:paddingRight="20dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
@@ -42,20 +40,38 @@
                     android:text="06/25"
                     android:textColor="#FFFFFF"
                     android:textSize="14dp" />
-
-                <TextView
-                    android:id="@+id/del_content"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="50dp"
-                    android:text="물건 이름이 들어갈 자리"
-                    android:textStyle="bold" />
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="품목 : "
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/del_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="물건 이름이 들어갈 자리"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="245dp"
+                    android:src="@drawable/vertical_line" />
 
                 <ImageView
                     android:id="@+id/expressImage"
                     android:layout_width="100dp"
                     android:layout_height="80dp"
-                    android:layout_marginLeft="240dp"
+                    android:layout_marginLeft="260dp"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/kexpresslogo" />
             </RelativeLayout>
 
