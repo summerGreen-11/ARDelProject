@@ -3,49 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/homebox_checked.xml" value="0.254" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/homebox_unchecked.xml" value="0.254" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/homeboxshape.xml" value="0.254" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/loginbox.xml" value="0.2265" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/loginputbox.xml" value="0.2265" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/post_inputbox.xml" value="0.2265" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/settingshape.xml" value="0.1585" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/userbox_checked.xml" value="0.2265" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/userbox_text.xml" value="0.254" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/userbox_unchecked.xml" value="0.2265" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/userboxshape.xml" value="0.2265" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/activity_main.xml" value="0.18432971014492755" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/home.xml" value="0.136" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/homebox_checked.xml" value="0.17" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/homebox_unchecked.xml" value="0.17" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/homeboxshape.xml" value="0.17" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/loginbox.xml" value="0.17" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/reservshape.xml" value="0.169" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/settingshape.xml" value="0.17" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/userbox_checked.xml" value="0.17" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/userbox_text.xml" value="0.17" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/userbox_unchecked.xml" value="0.17" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/drawable/userboxshape.xml" value="0.17" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/activity_address_api.xml" value="0.24947916666666667" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/home.xml" value="0.536" />
         <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/login.xml" value="0.4" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/navi.xml" value="0.22826086956521738" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/reserv.xml" value="0.2917933130699088" />
-        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/settings.xml" value="0.72" />
-        <entry key="..\:/ARDelProject/app/src/main/res/drawable/check_switch_thumb.xml" value="0.234" />
-        <entry key="..\:/ARDelProject/app/src/main/res/drawable/check_switch_track.xml" value="0.234" />
-        <entry key="..\:/ARDelProject/app/src/main/res/drawable/loginbox.xml" value="0.2265" />
-        <entry key="..\:/ARDelProject/app/src/main/res/drawable/loginputbox.xml" value="0.1205" />
-        <entry key="..\:/ARDelProject/app/src/main/res/drawable/logintextbox.xml" value="0.245" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/reserv.xml" value="0.3130699088145897" />
+        <entry key="..\:/ARDelProject/ARDelProject/app/src/main/res/layout/settings.xml" value="0.16304347826086957" />
         <entry key="..\:/ARDelProject/app/src/main/res/drawable/menu_item_color.xml" value="0.2855" />
-        <entry key="..\:/ARDelProject/app/src/main/res/drawable/userbox.xml" value="0.245" />
-        <entry key="..\:/ARDelProject/app/src/main/res/drawable/userbox02.xml" value="0.245" />
-        <entry key="..\:/ARDelProject/app/src/main/res/drawable/userbox_checked.xml" value="0.1155" />
-        <entry key="..\:/ARDelProject/app/src/main/res/drawable/userbox_unchecked.xml" value="0.234" />
-        <entry key="..\:/ARDelProject/app/src/main/res/drawable/userboxcolor02.xml" value="0.245" />
-        <entry key="..\:/ARDelProject/app/src/main/res/drawable/userboxshape.xml" value="0.245" />
-        <entry key="..\:/ARDelProject/app/src/main/res/layout/activity_address_api.xml" value="0.3088768115942029" />
-        <entry key="..\:/ARDelProject/app/src/main/res/layout/activity_addressapi.xml" value="0.3088768115942029" />
         <entry key="..\:/ARDelProject/app/src/main/res/layout/activity_main.xml" value="0.2558876811594203" />
-        <entry key="..\:/ARDelProject/app/src/main/res/layout/activity_setting02.xml" value="0.3088768115942029" />
-        <entry key="..\:/ARDelProject/app/src/main/res/layout/activity_splash.xml" value="0.3088768115942029" />
-        <entry key="..\:/ARDelProject/app/src/main/res/layout/home.xml" value="0.3333333333333333" />
-        <entry key="..\:/ARDelProject/app/src/main/res/layout/list_header.xml" value="0.3088768115942029" />
+        <entry key="..\:/ARDelProject/app/src/main/res/layout/activity_splash.xml" value="0.2558876811594203" />
+        <entry key="..\:/ARDelProject/app/src/main/res/layout/home.xml" value="0.19296448087431695" />
         <entry key="..\:/ARDelProject/app/src/main/res/layout/login.xml" value="0.3333333333333333" />
-        <entry key="..\:/ARDelProject/app/src/main/res/layout/my_row.xml" value="0.3088768115942029" />
         <entry key="..\:/ARDelProject/app/src/main/res/layout/navi.xml" value="0.2558876811594203" />
         <entry key="..\:/ARDelProject/app/src/main/res/layout/reserv.xml" value="0.2558876811594203" />
         <entry key="..\:/ARDelProject/app/src/main/res/layout/scan.xml" value="0.2558876811594203" />
-        <entry key="..\:/ARDelProject/app/src/main/res/layout/settings.xml" value="0.3333333333333333" />
-        <entry key="..\:/ARDelProject/app/src/main/res/layout/settings_activity.xml" value="0.2558876811594203" />
+        <entry key="..\:/ARDelProject/app/src/main/res/layout/settings.xml" value="0.2558876811594203" />
         <entry key="..\:/ARDelProject/app/src/main/res/menu/bottom_menu.xml" value="0.35520833333333335" />
       </map>
     </option>
@@ -55,12 +36,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.3333333333333333" />
-      </ProjectState>
-    </option>
   </component>
 </project>

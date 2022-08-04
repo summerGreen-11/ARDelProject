@@ -36,7 +36,8 @@
                 android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/loginbox"
+                android:backgroundTint="#FFFFFF"
                 android:paddingLeft="10dp"
                 android:hint="이름"
                 android:inputType="text"/>
@@ -45,7 +46,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/loginbox"
+                android:backgroundTint="#FFFFFF"
                 android:paddingLeft="10dp"
                 android:hint="전화번호"
                 android:inputType="phone"
@@ -62,7 +64,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/loginbox"
+                android:backgroundTint="#FFFFFF"
                 android:paddingLeft="10dp"
                 android:hint="상세주소"
                 android:inputType="text"/>
@@ -87,7 +90,8 @@
                 android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/loginbox"
+                android:backgroundTint="#FFFFFF"
                 android:paddingLeft="10dp"
                 android:hint="이름"
                 android:inputType="text"/>
@@ -96,7 +100,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/loginbox"
+                android:backgroundTint="#FFFFFF"
                 android:paddingLeft="10dp"
                 android:hint="전화번호"
                 android:inputType="phone"
@@ -105,7 +110,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/loginbox"
+                android:backgroundTint="#FFFFFF"
                 android:paddingLeft="10dp"
                 android:hint="도로명주소"
                 android:inputType="text" />
@@ -113,19 +119,21 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/loginbox"
+                android:backgroundTint="#FFFFFF"
                 android:paddingLeft="10dp"
                 android:hint="상세주소"
-                android:inputType="text"/>
+                android:inputType="text" />
         </LinearLayout>
         <Button
+            android:background="@drawable/reservshape"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="운송장 생성"
             android:textStyle="bold"
             android:layout_marginBottom="120dp"
-            />
+            style="?android:attr/borderlessButtonStyle" />
     </LinearLayout>
     </ScrollView>
 
