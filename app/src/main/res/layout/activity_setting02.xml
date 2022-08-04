@@ -10,9 +10,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
-
+        android:layout_height="match_parent">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="240dp"
@@ -47,81 +45,135 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="70dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
                         android:text="전화번호"
-                        android:textStyle="bold"
                         android:textSize="15sp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_gravity="center_vertical"/>
-                    <ImageView
-                        android:layout_width="70dp"
-                        android:layout_height="30dp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/btn_sw1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="170dp"
-                        android:background="@color/maincolor"/>
+                        android:background="@color/white"
+                        android:lineSpacingExtra="6.4sp"
+                        android:text=""
+                        android:textColor="#2b2e32"
+                        android:textOff=""
+                        android:textOn=""
+
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:thumb="@drawable/check_switch_thumb"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:switchMinWidth="0dp"
+                        app:thumbTextPadding="24dp"
+                        app:track="@drawable/check_switch_track" />
                 </LinearLayout>
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/hoz_line"/>
+                    android:src="@drawable/hoz_line" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="70dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
                         android:text="이름"
-                        android:textStyle="bold"
                         android:textSize="15sp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_gravity="center_vertical"/>
-                    <ImageView
-                        android:layout_width="70dp"
-                        android:layout_height="30dp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/btn_sw2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="170dp"
-                        android:background="@color/maincolor"/>
+                        android:background="@color/white"
+                        android:lineSpacingExtra="6.4sp"
+                        android:text=""
+                        android:textColor="#2b2e32"
+                        android:textOff=""
+                        android:textOn=""
+
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:thumb="@drawable/check_switch_thumb"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:switchMinWidth="0dp"
+                        app:thumbTextPadding="24dp"
+                        app:track="@drawable/check_switch_track" />
                 </LinearLayout>
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/hoz_line"/>
+                    android:src="@drawable/hoz_line" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="70dp"
                         android:layout_height="wrap_content"
-                        android:text="상품 정보"
-                        android:textStyle="bold"
-                        android:textSize="15sp"
+                        android:layout_gravity="center_vertical"
                         android:layout_marginLeft="20dp"
-                        android:layout_gravity="center_vertical"/>
-                    <ImageView
-                        android:layout_width="70dp"
-                        android:layout_height="30dp"
+                        android:text="상품 정보"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/btn_sw3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="170dp"
-                        android:background="@color/maincolor"/>
+                        android:background="@color/white"
+                        android:lineSpacingExtra="6.4sp"
+                        android:text=""
+                        android:textColor="#2b2e32"
+                        android:textOff=""
+                        android:textOn=""
+
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:thumb="@drawable/check_switch_thumb"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:switchMinWidth="0dp"
+                        app:thumbTextPadding="24dp"
+                        app:track="@drawable/check_switch_track" />
                 </LinearLayout>
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/hoz_line"/>
+                    android:src="@drawable/hoz_line" />
 
             </LinearLayout>
-            
+
         </LinearLayout>
         
     </RelativeLayout>
