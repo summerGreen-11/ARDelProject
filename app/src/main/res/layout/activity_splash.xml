@@ -6,9 +6,9 @@
     android:background="@color/bgcolor">
 
     <ImageView
-        android:layout_width="277dp"
-        android:layout_height="123dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:src="@drawable/loadimg" />
+        android:src="@drawable/logo1" />
 
 </LinearLayout>
