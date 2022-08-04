@@ -70,7 +70,10 @@
             android:background="@drawable/loginputbox"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:hint="   이메일을 입력하세요."
+            android:hint="이메일을 입력하세요."
+            android:paddingLeft="10dp"
+            android:textSize="12dp"
+            android:inputType="text"
             android:textColorHint="#CECECE" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -89,13 +92,13 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         app:passwordToggleEnabled="true">
         <EditText
+            android:inputType="textPassword"
             android:background="@drawable/loginputbox"
+            android:paddingLeft="10dp"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:inputType="textPassword"/>
+            android:layout_height="40dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <LinearLayout

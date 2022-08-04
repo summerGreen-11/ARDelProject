@@ -3,5 +3,6 @@
     <item android:state_selected="true"
           android:drawable="@drawable/homebox_checked" />
 
-    <item android:drawable="@drawable/homebox_unchecked" />
+    <item
+        android:drawable="@drawable/homebox_unchecked" />
 </selector>
